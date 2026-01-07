@@ -87,6 +87,10 @@
    'C:\\Users\\jctre\\Desktop\\Software '
    'Projects\\PythonProjects\\LURP\\CacheClear\\1.1\\app\\utils\\__init__.py',
    'PYMODULE'),
+  ('app.utils.github_updater',
+   'C:\\Users\\jctre\\Desktop\\Software '
+   'Projects\\PythonProjects\\LURP\\CacheClear\\1.1\\app\\utils\\github_updater.py',
+   'PYMODULE'),
   ('app.utils.paths',
    'C:\\Users\\jctre\\Desktop\\Software '
    'Projects\\PythonProjects\\LURP\\CacheClear\\1.1\\app\\utils\\paths.py',
@@ -98,6 +102,10 @@
   ('app.utils.updater',
    'C:\\Users\\jctre\\Desktop\\Software '
    'Projects\\PythonProjects\\LURP\\CacheClear\\1.1\\app\\utils\\updater.py',
+   'PYMODULE'),
+  ('app.utils.version',
+   'C:\\Users\\jctre\\Desktop\\Software '
+   'Projects\\PythonProjects\\LURP\\CacheClear\\1.1\\app\\utils\\version.py',
    'PYMODULE'),
   ('argparse', 'C:\\Python314\\Lib\\argparse.py', 'PYMODULE'),
   ('ast', 'C:\\Python314\\Lib\\ast.py', 'PYMODULE'),
