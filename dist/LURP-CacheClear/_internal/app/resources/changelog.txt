@@ -1,0 +1,59 @@
+LURP Utility Suite – Full Changelog
+===================================
+
+Version 1.2.0
+-------------
+• Added fully redesigned System Info page
+    - Live CPU usage graph
+    - Live RAM usage graph
+    - Live GPU usage graph (GPUtil support)
+    - Disk usage display
+• Rewrote Troubleshooter page with only non-duplicate tools
+    - DNS Flush
+    - Network Stack Reset
+    - IP Renew
+    - Process Killers (FiveM & Steam)
+    - Restart Windows Explorer
+    - Clean, stable log system
+• Rebuilt Cleaning page from the ground up
+    - Accurate cache size detection
+    - FiveM Cache Cleaner
+    - FiveM Log Cleaner
+    - GTA Shader Cache Cleaner
+    - Windows Temp Folder Cleaner
+    - “Clean All” button
+    - Rescan button
+    - Live cleaning log
+• Rewrote Quick Tools page
+    - Folder shortcuts (FiveM folder, Logs, Temp)
+    - Launch FiveM / Launch Steam
+    - Open LURP Discord
+    - Open Itch.io page
+    - Non-duplicate tools only
+• Added crash-proof Changelog system (local file instead of web request)
+• Updated UI layout and spacing across all pages
+• Improved sidebar responsiveness and styling
+• Fixed app closing instantly after splash
+• Reduced thread warnings and removed unsafe thread UI operations
+• Cleaner, more stable card layout for all tools & actions
+• General performance improvements and code cleanup
+
+Version 1.1.0
+-------------
+• Added new animated splash screen with fade-in logo
+• Added initial storage analyzer for cleaning estimates
+• Improved window transitions and application loading flow
+• Integrated new dark-theme card UI components
+• Added primary and secondary button styles
+• Added Troubleshooter (early version)
+• Redesigned main window layout with sidebar navigation
+• Fixed multiple minor UI bugs and alignment issues
+• Improved module structure for PyInstaller compatibility
+
+Version 1.0.0
+-------------
+• Initial release of LURP Cache Cleaner
+• Basic FiveM cache cleanup
+• Basic Windows temp cleanup
+• Simple, compact UI
+• Standalone EXE installer

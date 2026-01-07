@@ -1,0 +1,95 @@
+/* GLOBAL BACKGROUND */
+QWidget {
+    background-color: #070b18;
+    color: #d0d8e8;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* PAGE TITLES */
+QLabel#PageTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+QLabel#PageSubtitle {
+    font-size: 14px;
+    color: #8f9bb3;
+}
+
+/* SIDEBAR */
+#Sidebar {
+    background-color: #0b1120;
+    border-right: 1px solid #1a2234;
+}
+
+/* Sidebar Logo Text */
+QLabel#SidebarAppName {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Section Header */
+QLabel#SidebarSection {
+    color: #7c8aa5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* NAVIGATION LIST */
+#SidebarList {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+/* NAV ITEMS */
+#SidebarList::item {
+    padding: 12px 14px;
+    margin: 4px 0;
+    border-radius: 10px;
+    height: 42px;
+}
+
+#SidebarList::item:hover {
+    background-color: #1a2338;
+}
+
+#SidebarList::item:selected {
+    background-color: #ff7f2a;
+    color: black;
+    font-weight: bold;
+}
+
+/* DISCORD BUTTON */
+QPushButton#SidebarDiscordBtn {
+    background-color: #5865F2;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+QPushButton#SidebarDiscordBtn:hover {
+    background-color: #4754d9;
+}
+
+/* SUPPORT NOTE */
+QLabel#SidebarNote {
+    font-size: 12px;
+    color: #7c8aa5;
+    padding-top: 4px;
+}
+
+/* CARDS */
+QFrame#Card {
+    background-color: #0c1224;
+    border: 1px solid #1d2743;
+    border-radius: 12px;
+    padding: 16px;
+}
